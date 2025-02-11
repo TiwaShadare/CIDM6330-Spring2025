@@ -5,7 +5,6 @@ Requirements Documentation
 ***February 2025***  
 
 **Author:** *Tiwalope Shadare*
------:|
 ---  
 # Table of Contents
 - [Introduction](#introduction)
@@ -22,6 +21,7 @@ Requirements Documentation
     - [UX Notes](#ux-notes)
     - [Interface Controls](#interface-controls)
     - [Behaviors](#behaviors)
+    - [Package](#package)
 ---
 # Introduction
 ## Purpose
@@ -30,7 +30,9 @@ This document provides an overview of the Human Resource Management System (HRMS
 This document defines the boundaries of our software. It outlines user stories, software features, use cases with actors and their interactions, acceptance criteria, and the testing process.  
 The software development team at Talent Scope will undertake the internal development of the system. While the onboarding process will be outlined at a high level in this document, it will be excluded from this development iteration. Additional excluded requirements will be identified at a later stage.    
 ## Abbreviation 
-**HRMS** – Human Resource Management System.    
+**HRMS** – Human Resource Management System.  
+**UX** - User Experience.    
+**UI** - User Interface.
 # Requirements Statements
 ## User Stories  
 #### 1.	Recruitment Process Management  
@@ -155,4 +157,6 @@ We anticipate that our HRMS will exhibit various system behaviors and actions, i
 **Post Job Openings:** Recruiters/HR Managers can post job openings on the HRMS.  
 **Manage Applications:** Recruiters/HR Managers can review and shortlist job applications.  
 **Onboard New Employees:** Recruiters/HR Managers can generate onboarding checklists and track the onboarding process.  
-
+## Package  
+The package diagram serves as a container to organize the HRMS elements into a more manageable structure.  
+![image](https://github.com/user-attachments/assets/613e1882-4319-404d-a6f6-6bc52abbcd32)
