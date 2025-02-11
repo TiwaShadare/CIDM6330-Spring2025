@@ -1,3 +1,28 @@
+Software Architecture   
+Requirements Documentation  
+=============================
+
+***February 2025***  
+
+**Author:** *Tiwalope Shadare*
+-----:|
+---  
+# Table of Contents
+- [Introduction](#introduction)
+  - [Purpose](#purpose)
+  - [Scope](#scope)
+  - [Abbreviation](#abbreviation)
+- [Requirements Statements](#requirements-statements)
+  - [User Stories](#user-stories)
+  - [Use Cases](#use-cases)
+  - [Features](#features)
+  - [Gherkin Validation](#gherkin-validation)
+- [Specifications](#specifications)
+    - [Concepts](#concepts)
+    - [UX Notes](#ux-notes)
+    - [Interface Controls](#interface-controls)
+    - [Behaviors](#behaviors)
+---
 # Introduction
 ## Purpose
 This document provides an overview of the Human Resource Management System (HRMS), Talent Scope. It presents various architectural views to highlight key decisions and actors involved. Additionally, it offers a high-level end-to-end overview of the process.
@@ -6,8 +31,8 @@ This document defines the boundaries of our software. It outlines user stories, 
 The software development team at Talent Scope will undertake the internal development of the system. While the onboarding process will be outlined at a high level in this document, it will be excluded from this development iteration. Additional excluded requirements will be identified at a later stage.    
 ## Abbreviation 
 **HRMS** – Human Resource Management System.    
-# Requirement Statement
-## User Stories (Class, State, Sequence)  
+# Requirements Statements
+## User Stories  
 #### 1.	Recruitment Process Management  
 * As a Recruiter, I want to be able to streamline the recruitment process, so that I can perform an end-end recruitment process in one system.
 * As an applicant, I want to see the jobs available to me, apply for the job and do my interviews all in one system so that it will be an easier process for me.
@@ -81,7 +106,6 @@ These Gherkin scenarios outline the anticipated behavior of the HRMS in differen
 ![image](https://github.com/user-attachments/assets/498d36cb-2677-4471-9967-be1e96a99104)  
 
 ![image](https://github.com/user-attachments/assets/b0bae7aa-ea42-43e4-a9d9-b350d428f468)
-
 # Specifications
 ## Concepts  
 To create a detailed requirement document for a Human Resource Management System (HRMS), here are some key concepts to keep in mind:  
@@ -119,3 +143,16 @@ The system will be accessible on various devices including desktops, tablets, an
 #### 5. Help and Support  
 We will incorporate help icons and tooltips to offer guidance to the end user. Additionally, other support resources such as FAQs and customer support channels will be provided.  
 ## Behaviors
+We anticipate that our HRMS will exhibit various system behaviors and actions, including but not limited to:  
+#### 1. User Authentication  
+**Create Account:** Users  can create an account and set up their credentials (Username and Password creation).  
+**Login/Logout:** Users can securely log into the HRMS using their credentials.  
+**Password Management:** Users can reset or change their passwords.   
+#### 2. Applicant Data Management  
+**Update Information:** End users can update their personal information.  
+**View Profile:** End users can view their profiles.  
+#### 3. Recruitment and Onboarding  
+**Post Job Openings:** Recruiters/HR Managers can post job openings on the HRMS.  
+**Manage Applications:** Recruiters/HR Managers can review and shortlist job applications.  
+**Onboard New Employees:** Recruiters/HR Managers can generate onboarding checklists and track the onboarding process.  
+
