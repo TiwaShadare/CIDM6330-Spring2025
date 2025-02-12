@@ -1,12 +1,13 @@
 Software Architecture   
 Requirements Documentation  
 =============================
+**Version 1.0**  
 
 ***February 2025***  
 
 **Author:** *Tiwalope Shadare*
 ---  
-# Table of Contents
+## Table of Contents
 - [Introduction](#introduction)
   - [Purpose](#purpose)
   - [Scope](#scope)
@@ -57,10 +58,10 @@ A sequence diagram illustrates the interactions between objects or actors within
 
 ![image](https://github.com/user-attachments/assets/6b64451d-c33a-488b-8867-27514a91c1e9)
 ## Use Cases  
-The use case delineates the selection of scenarios, actors, and actions that will be the focal points of the process. It encompasses scenarios with considerable architectural coverage of the Human Resource Management System (HRMS), Talent Scope. Additionally, it illustrates how the HRMS will be applied in various contexts.  
+The use case delineates the selection of scenarios, actors, and actions that will be the focal points of the process. It encompasses scenarios with considerable architectural coverage of the Human Resource Management System (HRMS). Additionally, it illustrates how the HRMS will be applied in various contexts.  
 Below are the functionalities of the system:  
 #### Job Application
-**Actor:** Applicant
+**Actor:** Applicant  
 **Scenario:** Applying for a job  
 * The Job Applicant creates an account in the HRMS.
 * The Job Applicant verifies their information and logs in.
@@ -151,8 +152,8 @@ We anticipate that our HRMS will exhibit various system behaviors and actions, i
 **Login/Logout:** Users can securely log into the HRMS using their credentials.  
 **Password Management:** Users can reset or change their passwords.   
 #### 2. Applicant Data Management  
-**Update Information:** End users can update their personal information.  
-**View Profile:** End users can view their profiles.  
+**Update Information:** Users can update their personal information.  
+**View Profile:** Users can view their profiles.  
 #### 3. Recruitment and Onboarding  
 **Post Job Openings:** Recruiters/HR Managers can post job openings on the HRMS.  
 **Manage Applications:** Recruiters/HR Managers can review and shortlist job applications.  
