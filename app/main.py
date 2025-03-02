@@ -299,24 +299,3 @@ def delete_company(company_id: int, db: Session = Depends(get_db)):
     db.commit()
     return db_company
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@app.delete("/company/{id}")
-def delete_company(id: str):
-    db.companys.delete_one({"_id": ObjectId(id)})
-    return {"message": "Company deleted successfully"}
