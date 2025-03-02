@@ -1,3 +1,4 @@
+# ASSIGNMENT 02: FROM SPECIFICATION TO API
 # 1. Entity Relationship Diagram (ERD) For HRMS  
 <img width="538" alt="image" src="https://github.com/user-attachments/assets/58fb77a5-8669-40ca-89e3-c9f151878dbe" />
 
@@ -304,6 +305,8 @@ def delete_company(company_id: int, db: Session = Depends(get_db)):
     db.delete(db_company)
     db.commit()
     return db_company
+
+#To run: $uvicorn app.main:app --reload
 ```
 ## 2a. Database.py
 ```
@@ -314,7 +317,7 @@ def init_db():
     Base.metadata.create_all(bind=engine)
 ```
 
-## 2b. Pydantic Models (models.py)
+# 3. Pydantic Models (models.py)
 ```
 from sqlalchemy import Column, Integer, String, create_engine
 from sqlalchemy.ext.declarative import declarative_base
@@ -388,7 +391,7 @@ class Company(Base):
     location = Column(String, index=True)
     industry = Column(String, index=True)
 ```
-## 2c. Schemas.py
+## 3a. Schemas.py
 ```
 from pydantic import BaseModel
 
