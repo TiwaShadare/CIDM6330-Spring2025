@@ -1,5 +1,6 @@
 # 1. Entity Relationship Diagram (ERD) For HRMS  
-<img width="433" alt="image" src="https://github.com/user-attachments/assets/d2f2c4d2-c3aa-49d5-9543-f6225566a99d" />    
+<img width="538" alt="image" src="https://github.com/user-attachments/assets/58fb77a5-8669-40ca-89e3-c9f151878dbe" />
+
 
 # 2. API in Python Using FastAPI  
 
