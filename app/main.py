@@ -299,3 +299,4 @@ def delete_company(company_id: int, db: Session = Depends(get_db)):
     db.commit()
     return db_company
 
+#To run: $uvicorn app.main:app --reload
